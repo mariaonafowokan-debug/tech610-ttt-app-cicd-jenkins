@@ -20,3 +20,5 @@ echo
 ```
 
 Line added to test whether now that I have my jenkins build agent source IP, and have allowed ssh from it in my sg configuration (port 22), it will finally work
+
+Line added to test whether ssh connection works now, changed it to ensure it can ssh from anywhere
