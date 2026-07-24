@@ -40,3 +40,6 @@ Line added to test whether ssh connection works now, changed it to ensure it can
 
 * Had a typo in my IPv4 address for my EC2 instance, this line is to attempt it again
 
+* Line added after adding these commands to execute shell: 
+mkdir -p ~/.ssh
+ssh-keyscan -H 54.195.220.40 >> ~/.ssh/known_hosts
