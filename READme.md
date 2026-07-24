@@ -33,3 +33,5 @@ Line added to test whether ssh connection works now, changed it to ensure it can
     → `https://github.com/mariaonafowokan-debug/tech610-ttt-app-cicd-jenkins.git`
 
 * This line was added to see if extra config of merging main will ensure the webhook works
+
+* This line was added to see if ticking `GitHub hook trigger for GITScm polling` makes a difference to ensure the webhook is connected
