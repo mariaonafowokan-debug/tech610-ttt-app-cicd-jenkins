@@ -31,3 +31,5 @@ Line added to test whether ssh connection works now, changed it to ensure it can
 * This line was added to test the webhook again with a slight change to the github ur;, adding: `.git`  
 
     → `https://github.com/mariaonafowokan-debug/tech610-ttt-app-cicd-jenkins.git`
+
+* This line was added to see if extra config of merging main will ensure the webhook works
