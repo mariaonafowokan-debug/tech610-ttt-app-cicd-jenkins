@@ -37,3 +37,6 @@ Line added to test whether ssh connection works now, changed it to ensure it can
 * This line was added to see if ticking `GitHub hook trigger for GITScm polling` makes a difference to ensure the webhook is connected
 
 * This line is to see whether job 3 will work and deploy
+
+* Had a typo in my IPv4 address for my EC2 instance, this line is to attempt it again
+
