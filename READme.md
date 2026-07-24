@@ -44,4 +44,13 @@ Line added to test whether ssh connection works now, changed it to ensure it can
 mkdir -p ~/.ssh
 ssh-keyscan -H 54.195.220.40 >> ~/.ssh/known_hosts
 
-* Line added after ssh into ec2 vm and checking 
+* Line added after ssh into ec2 vm and checking, then editing execute shell to include pm2 restart tic --update-env   :
+
+```
+mkdir -p ~/.ssh
+ssh-keyscan -H 54.195.220.40 >> ~/.ssh/known_hosts
+
+rsync -avz app/ ubuntu@54.195.220.40:/tech610-tic-tac-toe/app/
+
+ssh ubuntu@54.195.220.40 "cd /tech610-tic-tac-toe/app && (pm2 restart tic --update-env || pm2 start index.js --name tic)"
+```
