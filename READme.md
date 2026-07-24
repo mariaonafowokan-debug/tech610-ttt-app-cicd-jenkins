@@ -43,3 +43,5 @@ Line added to test whether ssh connection works now, changed it to ensure it can
 * Line added after adding these commands to execute shell: 
 mkdir -p ~/.ssh
 ssh-keyscan -H 54.195.220.40 >> ~/.ssh/known_hosts
+
+* Line added after ssh into ec2 vm and checking 
