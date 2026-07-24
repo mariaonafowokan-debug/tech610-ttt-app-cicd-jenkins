@@ -27,3 +27,7 @@ Line added to test whether ssh connection works now, changed it to ensure it can
 # Repeating 3 job deployment steps on a different Jenkins Server
 
 * This line was added to test whether the webhook works after job 1 runs and start job 2.
+
+* This line was added to test the webhook again with a slight change to the github ur;, adding: `.git`  
+
+    → `https://github.com/mariaonafowokan-debug/tech610-ttt-app-cicd-jenkins.git`
